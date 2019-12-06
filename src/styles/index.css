@@ -19,3 +19,8 @@ p {
   background: url("../assets/BackgroundTexture.png") bottom center no-repeat;
   min-height: 490px;  
 }
+
+.PurchaseBackground {
+  background: url("../assets/BackgroundTexture.png") bottom center no-repeat;
+  min-height: 490px;
+}

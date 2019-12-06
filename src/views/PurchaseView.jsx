@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button";
 
 const PurchaseView = () => {
   return (
-    <Jumbotron fluid className="py-5 mb-0">
+    <Jumbotron fluid className="py-5 mb-0 PurchaseBackground">
       <Row className="pt-5">
         <Col md={1}></Col>
         <Col>

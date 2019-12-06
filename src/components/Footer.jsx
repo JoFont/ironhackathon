@@ -11,7 +11,7 @@ class Footer extends Component {
 						target="blank"
 						className="py-2 pl-4 text-secondary nav-link"
 					>
-						Sustainable Development Goals
+						UN Sustainable Development Goals
 					</Nav.Link>
 {/* 					<Nav.Link
 						href="#"

@@ -14,7 +14,7 @@ const ProblemView = () => {
             </Col>
           </Row>
           <Row className="mt-3">
-            <Col md={5}></Col>
+            <Col md={5} lg={4}></Col>
             <Col>
             <p className="text-left text-dark">Pink for girls, blue for boys; dolls for girls, trucks for boys; girls are fragile, boys are strong; girls are dependent, boys are autonomous.  
             <br/>

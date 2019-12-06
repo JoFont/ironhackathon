@@ -18,8 +18,8 @@ const HeroView = () => {
 			</Row>
 			<Row>
 				<Col md={4}></Col>
-				<Col md={5} className="text-light">
-					<h2>
+				<Col md={8} className="text-light">
+					<h2 className="pl-5">
 						Bridging the Gap to a Better World
 					</h2>
 				</Col>

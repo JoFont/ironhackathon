@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 
 const ProblemView = () => {
   return (
-    <Carousel>
+    <Carousel id="problem">
       <Carousel.Item>
         <img
           className="d-block w-100"

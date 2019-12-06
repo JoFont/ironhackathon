@@ -5,19 +5,19 @@ import Nav from "react-bootstrap/Nav";
 class NavBar extends Component {
 	render() {
 		return (
-			<Navbar bg="dark" variant="dark" className="justify-content-end px-4">
+			<Navbar collapseOnSelect  bg="dark" variant="dark" className="justify-content-end px-4">
 				<Nav>
 					<Nav.Item className="px-4">
-						<Nav.Link href="#">PROBLEM</Nav.Link>
+						<Nav.Link href="#problem">PROBLEM</Nav.Link>
 					</Nav.Item>
 					<Nav.Item className="px-4">
-						<Nav.Link href="#">ABOUT GAME</Nav.Link>
+						<Nav.Link href="#about">ABOUT GAME</Nav.Link>
 					</Nav.Item>
 					<Nav.Item className="px-4">
-						<Nav.Link href="#">PURCHASE</Nav.Link>
+						<Nav.Link href="#purchase">PURCHASE</Nav.Link>
 					</Nav.Item>
 					<Nav.Item className="px-4">
-						<Nav.Link href="#">CONTACT</Nav.Link>
+						<Nav.Link href="#contact">CONTACT</Nav.Link>
 					</Nav.Item>
 				</Nav>
 			</Navbar>

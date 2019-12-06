@@ -41,7 +41,7 @@ const ProblemView = () => {
 			<Carousel.Item className="mh-100 pt-5 mt-5">
 				<Carousel.Caption className="h-100">
 					<Row>
-						<h2 className="display-5 font-weight-normal text-left text-dark mb-3">
+						<h2 className="display-5 font-weight-normal text-left text-dark mb-5">
 							WHY THIS MATTERS
 						</h2>
 					</Row>

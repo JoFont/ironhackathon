@@ -15,8 +15,8 @@ const ContactView = () => {
 				</Col>
 			</Row>
 			<Row>
-				<Col md={4}></Col>
-				<Col md={5} className="text-light">
+				<Col md={2}></Col>
+				<Col md={6} className="text-light">
 					<h2 className="font-weight-light pl-3">
 						We’re a small team of good people who want to encourage
 						fairness and equality in our beautiful world, because

@@ -9,13 +9,13 @@ const AboutView = () => {
       <Row className="pt-5">
         <Col md={1}></Col>
         <Col>
-          <h1 class="display-4 font-weight-normal">PURCHASE</h1>
+          <h1 className="display-4 font-weight-normal">PURCHASE</h1>
         </Col>
       </Row>
       <Row>
-        <Col md={3}></Col>
-        <Col>
-          <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+        <Col md={3} lg={2}></Col>
+        <Col md={5}>
+          <h1 className="font-weight-light pl-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
         </Col>
       </Row>
     </Jumbotron>

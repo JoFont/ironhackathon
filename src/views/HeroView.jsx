@@ -11,8 +11,7 @@ const HeroView = () => {
 					<Col md={1}></Col>
 					<Col className="text-light">
 						<h3 className="pl-5 font-montserrat">Welcome to</h3>
-
-						<h1 className="display-1 font-archivo lh-75">
+						<h1 className="display-1 font-archivo lh-75 page-title">
 							THE GOOD PLACE
 						</h1>
 					</Col>

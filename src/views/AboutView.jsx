@@ -21,13 +21,13 @@ const AboutView = () => {
       </Row>
       <Row className="no-gutters mt-5">
         <Col>
-          <img className="mw-100" src="/images/GameScreenshots.png" alt=""/>
+          <img className="w-100" src="/images/GameScreenshots.png" alt=""/>
         </Col>
         <Col>
-          <img className="mw-100" src="/images/GameScreenshots-1.png" alt=""/>
+          <img className="w-100" src="/images/GameScreenshots-1.png" alt=""/>
         </Col>
         <Col>
-          <img className="mw-100" src="/images/GameScreenshots-2.png" alt=""/>
+          <img className="w-100" src="/images/GameScreenshots-2.png" alt=""/>
         </Col>
       </Row>
     </Jumbotron>

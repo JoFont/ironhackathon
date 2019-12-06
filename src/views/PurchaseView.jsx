@@ -10,7 +10,7 @@ const PurchaseView = () => {
       <Row className="pt-5">
         <Col md={1}></Col>
         <Col>
-          <h1 className="display-4 font-weight-normal">PURCHASE</h1>
+          <h1 className="display-4 font-archivo">PURCHASE</h1>
         </Col>
       </Row>
       <Col>

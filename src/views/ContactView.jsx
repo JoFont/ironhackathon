@@ -9,13 +9,13 @@ const ContactView = () => {
       <Row className="pt-5">
         <Col md={7}></Col>
         <Col>
-          <h1 class="display-4 font-weight-normal">CONTACT</h1>
+          <h1 className="display-4 font-weight-normal">WHO ARE WE?</h1>
         </Col>
       </Row>
       <Row>
         <Col md={4}></Col>
         <Col md={5}>
-          <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+          <h2 className="font-weight-light pl-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
         </Col>
       </Row>
     </Jumbotron>

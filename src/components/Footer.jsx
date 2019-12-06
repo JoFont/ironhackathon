@@ -7,12 +7,13 @@ class Footer extends Component {
 			<footer className="footer py-2 bg-dark">
 				<Nav className="flex-column">
 					<Nav.Link
-						href="#"
+						href="https://www.un.org/sustainabledevelopment/"
+						target="blank"
 						className="py-2 pl-4 text-secondary nav-link"
 					>
-						Link One
+						Sustainable Development Goals
 					</Nav.Link>
-					<Nav.Link
+{/* 					<Nav.Link
 						href="#"
 						className="py-2 pl-4 text-secondary nav-link"
 					>
@@ -23,7 +24,7 @@ class Footer extends Component {
 						className="py-2 pl-4 text-secondary nav-link"
 					>
 						Link Three
-					</Nav.Link>
+					</Nav.Link> */}
 				</Nav>
 			</footer>
 		);

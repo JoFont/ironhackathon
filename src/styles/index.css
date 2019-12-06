@@ -7,3 +7,15 @@ html {
 p {
   font-family: "Montserrat";
 }
+
+.caroussel-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height:400px;
+}
+
+.carousel-inner {
+  background: url("../assets/BackgroundTexture.png") bottom center no-repeat;
+  min-height: 490px;  
+}

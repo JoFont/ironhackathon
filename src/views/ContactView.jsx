@@ -9,7 +9,7 @@ const ContactView = () => {
       <Row className="pt-5">
         <Col md={7}></Col>
         <Col>
-          <h1 class="display-1 font-weight-normal">CONTACT</h1>
+          <h1 class="display-4 font-weight-normal">CONTACT</h1>
         </Col>
       </Row>
       <Row>

@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 
 const AboutView = () => {
   return (
-    <Jumbotron id="about" fluid className="pt-5 mb-0 pb-0 bg-dark text-white">
+    <Jumbotron id="about" fluid className="pt-5 mb-0 pb-0 LightGreyBg text-white">
       <Row className="pt-5">
         <Col md={5}></Col>
         <Col className="text-light">
@@ -14,9 +14,7 @@ const AboutView = () => {
       </Row>
       <Row className="justify-content-center mt-4">
         <Col md={7} className="text-light">
-          <p className="font-weight-light pl-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-          <br/>
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+          <p className="font-weight-light pl-3">The Good Place is an social interaction simulation that explores the effects of common mysogynistic attitues in real life scenarios. The player takes the perspective of a character in a utopian world where gender stereoptyping and sexism doesn’t exist. To continue living in this beautiful world the player must choose the appropriate responses in everyday situations. The Good Place is a theoretically based intervention that aims to increase the skills, attitudes, and awareness needed to empower high school youth to help combat mysogony by challenging common gender based myths.</p>
         </Col>
       </Row>
       <Row className="no-gutters mt-5">

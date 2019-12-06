@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 
 const ContactView = () => {
   return (
-    <Jumbotron id="contact" fluid className="py-5 mb-0 bg-secondary">
+    <Jumbotron id="contact" fluid className="py-5 mb-0 LightGreyBg">
       <Row className="pt-5">
         <Col md={7}></Col>
         <Col className="text-light">

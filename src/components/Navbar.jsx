@@ -8,9 +8,9 @@ class NavBar extends Component {
 			<Navbar
 				collapseOnSelect
 				expand="lg"
-				bg="dark"
+				// bg="dark"
 				variant="dark"
-				className="justify-content-between px-4"
+				className="justify-content-between px-4 DarkGreyBg"
 			>
 				{/* <Navbar.Brand href="#home">GP</Navbar.Brand> */}
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />

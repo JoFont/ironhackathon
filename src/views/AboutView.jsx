@@ -9,7 +9,7 @@ const AboutView = () => {
       <Row className="pt-5">
         <Col md={5}></Col>
         <Col className="text-light">
-        <h1 className="display-4 font-weight-normal">ABOUT THE GOOD PLACE</h1>
+          <h1 className="display-4 font-weight-normal text-left text-white">ABOUT <span className="font-weight-bold">THE GOOD PLACE</span></h1>
         </Col>
       </Row>
       <Row>

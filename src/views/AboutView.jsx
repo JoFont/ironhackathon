@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 
 const AboutView = () => {
   return (
-    <Jumbotron fluid className="py-5 mb-0 bg-dark text-white">
+    <Jumbotron id="about" fluid className="pt-5 mb-0 pb-0 bg-dark text-white">
       <Row className="pt-5">
         <Col md={5}></Col>
         <Col className="text-light">
@@ -19,15 +19,15 @@ const AboutView = () => {
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
         </Col>
       </Row>
-      <Row>
+      <Row className="no-gutters mt-5">
         <Col>
-          <img src="../assets/GameScreenshots.png" alt=""/>
+          <img className="mw-100" src="/images/GameScreenshots.png" alt=""/>
         </Col>
         <Col>
-          <img src="../assets/GameScreenshots-1.png" alt=""/>
+          <img className="mw-100" src="/images/GameScreenshots-1.png" alt=""/>
         </Col>
         <Col>
-          <img src="../assets/GameScreenshots-2.png" alt=""/>
+          <img className="mw-100" src="/images/GameScreenshots-2.png" alt=""/>
         </Col>
       </Row>
     </Jumbotron>

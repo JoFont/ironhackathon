@@ -20,7 +20,6 @@ const PurchaseView = () => {
             <Col md={3} lg={2}></Col>
             <Col>
               <h1 className="font-weight-light pl-3">Bring The Good Place to your classroom</h1>
-              
             </Col>
           </Row>
         </div>

@@ -13,7 +13,7 @@ class NavBar extends Component {
 				variant="dark"
 				className="justify-content-between px-4 DarkGreyBg"
 			>
-				<Navbar.Brand href="#home"><img src="" alt=""/> </Navbar.Brand>
+				<Navbar.Brand href="#home">{/* <img src="/images/download.png" alt=""/> */} </Navbar.Brand>
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 				<Navbar.Collapse id="responsive-navbar-nav">
 					<Nav className="justify-content-end ml-auto">

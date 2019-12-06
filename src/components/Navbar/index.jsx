@@ -8,16 +8,16 @@ class NavBar extends Component {
 			<Navbar bg="dark" variant="dark" className="justify-content-end px-4">
 				<Nav>
 					<Nav.Item className="px-4">
-						<Nav.Link>PROBLEM</Nav.Link>
+						<Nav.Link href="#">PROBLEM</Nav.Link>
 					</Nav.Item>
-					<Nav.Item>
-						<Nav.Link>ABOUT GAME</Nav.Link>
+					<Nav.Item className="px-4">
+						<Nav.Link href="#">ABOUT GAME</Nav.Link>
 					</Nav.Item>
-					<Nav.Item>
-						<Nav.Link>PURCHASE</Nav.Link>
+					<Nav.Item className="px-4">
+						<Nav.Link href="#">PURCHASE</Nav.Link>
 					</Nav.Item>
-					<Nav.Item>
-						<Nav.Link>CONTACT</Nav.Link>
+					<Nav.Item className="px-4">
+						<Nav.Link href="#">CONTACT</Nav.Link>
 					</Nav.Item>
 				</Nav>
 			</Navbar>

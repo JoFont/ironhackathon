@@ -9,7 +9,7 @@ const HeroView = () => {
       <Row className="pt-5">
         <Col md={1}></Col>
         <Col>
-          <h1 class="display-1 font-weight-normal">GAME NAME</h1>
+          <h1 className="display-1 font-weight-normal">GAME NAME</h1>
         </Col>
       </Row>
       <Row>

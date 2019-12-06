@@ -1,8 +1,5 @@
 import React from 'react'
 import Carousel from "react-bootstrap/Carousel";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-
 const ProblemView = () => {
   return (
     <Carousel id="problem">
@@ -12,9 +9,11 @@ const ProblemView = () => {
           src="holder.js/800x400?text=First slide&bg=373940"
           alt="First slide"
         />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <Carousel.Caption className="h-100">
+          <h3>Why the Good Place</h3>
+          <p>Pink for girls, blue for boys; dolls for girls, trucks for boys; girls are fragile, boys are strong; girls are dependent, boys are autonomous.  
+
+            These  are  some  of  the  basic  differential treatment and assumed sexual characteristics of the sexes that begin  very  early  in  childhood  and  the  beginning  of  the reinforcement  of  the  double  standard  for  the  sexes  that persists throughout  the process of socialization.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>

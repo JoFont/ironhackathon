@@ -6,6 +6,7 @@ import HeroView from './views/HeroView';
 import ProblemView from './views/ProblemView';
 import AboutView from './views/AboutView';
 import ContactView from './views/ContactView';
+import PurchaseView from './views/PurchaseView';
 import "holderjs";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <HeroView/>
       <ProblemView/>
       <AboutView/>
+      <PurchaseView />
       <ContactView/>
       <Footer />  
     </Container>

@@ -7,14 +7,14 @@ const AboutView = () => {
   return (
     <Jumbotron fluid className="py-5 mb-0">
       <Row className="pt-5">
-        <Col md={7}></Col>
+        <Col md={1}></Col>
         <Col>
-        <h1 class="display-4 font-weight-normal">ABOUT GAME</h1>
+          <h1 class="display-4 font-weight-normal">PURCHASE</h1>
         </Col>
       </Row>
       <Row>
-        <Col md={4}></Col>
-        <Col md={5}>
+        <Col md={3}></Col>
+        <Col>
           <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
         </Col>
       </Row>

@@ -1,11 +1,14 @@
 import React from 'react';
-import { Switch, Route, Link } from "react-router-dom";
+import Container from "react-bootstrap/Container";
+import NavBar from './components/Navbar';
+import HeroView from './views/HeroView';
 
 function App() {
   return (
-    <Switch>
-      
-    </Switch>
+    <Container fluid className="m-0 p-0">
+      <NavBar />  
+      <HeroView id="#"/>
+    </Container>
   );
 }
 

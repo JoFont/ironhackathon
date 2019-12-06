@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 
 const HeroView = () => {
 	return (
-		<Jumbotron id="hero" fluid className="py-5 mb-0 bg-secondary hero-banner d-flex justify-content-center align-items-center">
+		<Jumbotron id="home" fluid className="py-5 mb-0 bg-secondary hero-banner d-flex justify-content-center align-items-center">
 			<div className="hero-banner-title-bg w-100 pb-5 pt-2">
 				<Row className="pt-5">
 					<Col md={1}></Col>

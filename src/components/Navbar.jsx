@@ -6,13 +6,14 @@ class NavBar extends Component {
 	render() {
 		return (
 			<Navbar
+				fixed="top"
 				collapseOnSelect
 				expand="lg"
 				// bg="dark"
 				variant="dark"
 				className="justify-content-between px-4 DarkGreyBg"
 			>
-				{/* <Navbar.Brand href="#home">GP</Navbar.Brand> */}
+				<Navbar.Brand href="#home">GP</Navbar.Brand>
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 				<Navbar.Collapse id="responsive-navbar-nav">
 					<Nav className="justify-content-end ml-auto">
